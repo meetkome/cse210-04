@@ -46,7 +46,7 @@ class Game:
         for object in self.falling_objects:
             if object.position.x in range(self.player.position.x -8, self.player.position.x + 8):
                 if object.position.y in range(self.player.position.y -8, self.player.position.y + 8):
-                    self.falling_objects.removed(object)
+                    self.falling_objects.remove(object)
                     self.score.value += object.points
                 
                 if object.position.y == 590:
