@@ -1,8 +1,3 @@
-import os
-import random
-
-def main():
-
-
-# if __name__ == "__main__":
-#     main()
+from game import Game
+game = Game()
+game.start_game()
