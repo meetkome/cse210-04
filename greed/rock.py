@@ -9,9 +9,6 @@ class Rock(FallingObject):
         self.appearance = "0"
         self.points = -1
 
-        speed = random.randrange(1,16)
-        super().set_velocity(Point(0,speed))
-
         r = random.randrange(200,255)
         g = random.randrange(128,175) 
         color = Color(r,g,g)       

@@ -9,12 +9,19 @@ class FallingObject:
         self.points = 1
         self.move_counter = 0
         self._color = Color(255, 255, 255)
-        self._velocity = Point(0, 0)
-        
+
     def fall(self):
         if self.move_counter < 30:
             self.move_counter += 1
         else:
             self.position.y += 1
             self.move_counter = 0
+    
+    def set_color(self, color):
+        """Updates the color to the given one.
+        
+        Args:
+            color (Color): The given color.
+        """
+        self._color = color
     

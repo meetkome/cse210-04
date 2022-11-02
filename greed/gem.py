@@ -9,9 +9,6 @@ class Gem(FallingObject):
         self.appearance = "#"
         self.points = 1
 
-        speed = random.randrange(1,16)
-        super().set_velocity(Point(0,speed))
-
         r = random.randrange(5,232)
         g = random.randrange(20,35)
         b = random.randrange(5,173) 
