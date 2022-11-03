@@ -6,6 +6,9 @@ class Mine(FallingObject):
     """
     A Mine that inherits from FallingObject
     """
+
+    FRAME_RATE = 25
+    
     def __init__(self):
         """
         Constructs gem

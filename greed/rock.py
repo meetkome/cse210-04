@@ -9,6 +9,8 @@ class Rock(FallingObject):
     Inherits from FallingObject
     An object that reduces score if Player touches it
     """
+    FRAME_RATE = 25
+    ADD_VELOCITY = 3
     def __init__(self):
         """
         Constructs a Rock with appearance, points, and color

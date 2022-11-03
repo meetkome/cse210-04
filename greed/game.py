@@ -31,6 +31,8 @@ class Game:
         "Frame Rate makes the game objects move a little faster. JB"
         FRAME_RATE = 25
         """"""
+        BLACK = Color(1,0,0)
+        #WHITE = Color(255,255,255) // Enabling this the player is invisible. Not sure why?
         init_window(900, 600, "Greed")
         while not window_should_close():
             begin_drawing()

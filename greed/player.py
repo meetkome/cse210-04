@@ -6,6 +6,8 @@ class Player:
     A Player
     This is responsible for creating an object that you could move to FallingObjects
     """
+    FRAME_RATE = 25
+    
     def __init__(self):
         """
         Constructs a Player object

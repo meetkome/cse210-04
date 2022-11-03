@@ -9,6 +9,7 @@ class Gem(FallingObject):
     It changes appearance and points
     It also sets color
     """
+    FRAME_RATE = 25
     def __init__(self):
         """
         Constructs Gem

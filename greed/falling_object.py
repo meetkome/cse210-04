@@ -12,6 +12,8 @@ class FallingObject:
         move_counter (int)
         _color (Color)
     """
+    FRAME_RATE = 25
+    ADD_VELOCITY = 3
     def __init__(self):
         """
         Constructs a new FallingObject
