@@ -1,3 +1,4 @@
+from pyparsing import White
 from pyray import *
 import random
 from player import Player
@@ -26,6 +27,10 @@ class Game:
         """
         Creates a window, populates the window with objects, and draws everything
         """
+        """"""
+        "Frame Rate makes the game objects move a little faster. JB"
+        FRAME_RATE = 25
+        """"""
         init_window(900, 600, "Greed")
         while not window_should_close():
             begin_drawing()
