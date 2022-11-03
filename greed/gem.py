@@ -6,7 +6,7 @@ from color import Color
 class Gem(FallingObject):
     def __init__(self):
         super(Gem, self).__init__()
-        self.appearance = "#"
+        self.appearance = "*"
         self.points = 1
 
         r = random.randrange(5,232)

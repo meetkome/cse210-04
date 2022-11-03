@@ -23,7 +23,7 @@ class Game:
                 picker = random.randint(1, 100)
                 if picker in range (0, 6):
                     object = Mine()
-                elif picker in range(6, 101):
+                elif picker in range(6, 60):
                     object = Rock()
                 elif picker in range(61, 101):
                     object = Gem()
